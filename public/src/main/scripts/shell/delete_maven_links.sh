@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #
 # Delete symlinks to testdata/qscripts created by maven. This is necessary
 # in cases where "mvn clean" fails to delete these links itself and exits

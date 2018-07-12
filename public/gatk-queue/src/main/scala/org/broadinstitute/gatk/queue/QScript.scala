@@ -27,7 +27,7 @@ package org.broadinstitute.gatk.queue
 
 import engine.JobRunInfo
 import org.broadinstitute.gatk.queue.function.QFunction
-import annotation.target.field
+import scala.annotation.meta.field
 import util._
 import org.broadinstitute.gatk.utils.commandline.ArgumentSource
 

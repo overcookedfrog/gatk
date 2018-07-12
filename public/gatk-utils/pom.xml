@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.broadinstitute.gatk</groupId>
         <artifactId>gatk-aggregator</artifactId>
-        <version>3.8-1</version>
+        <version>3.8.1</version>
         <relativePath>../..</relativePath>
     </parent>
 
@@ -86,8 +86,12 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
         </dependency>
+        <!--<dependency>-->
+        <!--    <groupId>com.google.code.cofoja</groupId>-->
+        <!--    <artifactId>cofoja</artifactId>-->
+        <!--</dependency>-->
         <dependency>
-            <groupId>com.google.code.cofoja</groupId>
+            <groupId>org.huoc</groupId>
             <artifactId>cofoja</artifactId>
         </dependency>
         <dependency>

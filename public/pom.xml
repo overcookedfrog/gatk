@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.broadinstitute.gatk</groupId>
         <artifactId>gatk-root</artifactId>
-        <version>3.8-1</version>
+        <version>3.8.1</version>
         <relativePath>gatk-root</relativePath>
     </parent>
 
@@ -19,13 +19,13 @@
         <module>gatk-utils</module>
         <module>gatk-engine</module>
         <module>gatk-tools-public</module>
-        <module>external-example</module>
         <!-- queue optionally enabled as profiles -->
     </modules>
 
     <properties>
         <gatk.basedir>${project.basedir}/..</gatk.basedir>
     </properties>
+
 
     <profiles>
         <!-- Allow queue to be disabled. -->
@@ -43,5 +43,6 @@
             </modules>
         </profile>
     </profiles>
+
 
 </project>

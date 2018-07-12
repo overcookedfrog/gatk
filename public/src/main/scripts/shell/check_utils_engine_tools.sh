@@ -17,7 +17,8 @@ sh -c \
   grep gatk
 
 RESULT=$?
-if [[ ${RESULT} -eq 0 ]]; then
+if [ ${RESULT} -eq 0 ]; 
+then
     echo "Fix the above errors. Do not import tools nor engine into the utils, and do not import tools into the engine." >&2
     exit 1
 else
