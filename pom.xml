@@ -11,7 +11,7 @@
     -->
 
     <parent>
-        <groupId>org.broadinstitute.gatk</groupId>
+        <groupId>com.github.overcookedfrog.gatk</groupId>
         <artifactId>gatk-root</artifactId>
         <version>3.8.1</version>
         <relativePath>public/gatk-root</relativePath>
@@ -845,12 +845,5 @@
             </properties>
         </profile>
     </profiles>
-
-    <!--<distributionManagement>-->
-    <!--    <repository>-->
-    <!--        <id>bintray-repo-maven</id>-->
-    <!--        <url>https://api.bintray.com/maven/overcookedfrog/maven-repo/gatk/</url>-->
-    <!--    </repository>-->
-    <!--</distributionManagement>-->
 
 </project>

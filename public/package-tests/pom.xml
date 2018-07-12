@@ -7,7 +7,7 @@
     -->
 
     <parent>
-        <groupId>org.broadinstitute.gatk</groupId>
+        <groupId>com.github.overcookedfrog.gatk</groupId>
         <artifactId>gatk-root</artifactId>
         <version>3.8-1</version>
         <relativePath>../gatk-root</relativePath>

@@ -10,7 +10,7 @@
       http://stackoverflow.com/questions/1992213/maven-parent-pom-vs-modules-pom
     -->
 
-    <groupId>org.broadinstitute.gatk</groupId>
+    <groupId>com.github.overcookedfrog.gatk</groupId>
     <artifactId>gatk-root</artifactId>
     <version>3.8.1</version>
     <packaging>pom</packaging>
@@ -749,7 +749,7 @@
     <distributionManagement>
         <repository>
             <id>bintray-repo-maven</id>
-            <url>https://api.bintray.com/maven/overcookedfrog/maven-repo/gatk/</url>
+            <url>https://api.bintray.com/maven/overcookedfrog/maven/gatk/</url>
         </repository>
     </distributionManagement>
 

@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.broadinstitute.gatk</groupId>
+        <groupId>com.github.overcookedfrog.gatk</groupId>
         <artifactId>gatk-aggregator</artifactId>
         <version>3.8.1</version>
         <relativePath>../..</relativePath>
