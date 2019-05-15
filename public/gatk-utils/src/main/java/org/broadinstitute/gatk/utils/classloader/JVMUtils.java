@@ -197,8 +197,12 @@ public class JVMUtils {
      * @return the list of class path urls.
      */
     public static Set<URL> getClasspathURLs() {
-        return ClasspathHelper.forManifest();
+	//return ClasspathHelper.forManifest();
+	Collection<URL> xs = ClasspathHelper.forManifest();
+	Set<URL> ys = new HashSet<URL>(xs);
+	return ys;
     }
+    
 
     /**
      * Adds all the generic types from a class definition to the collection.
